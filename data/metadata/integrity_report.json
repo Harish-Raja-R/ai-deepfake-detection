@@ -1,0 +1,16 @@
+{
+    "dataset_root_found": null,
+    "status": "DATASET_NOT_FOUND",
+    "error": "Directory not found under C:\\Users\\Harish\\Downloads\\AI deepfake detection\\AI_VOICE_DEEPFAKE_DETECTION\\data\\raw\\ASVspoof2019_LA",
+    "official_partitions_found": [],
+    "total_files": 0,
+    "real_count": 0,
+    "fake_count": 0,
+    "speaker_count": 0,
+    "attack_type_count": 0,
+    "missing_files_count": 0,
+    "corrupted_files_count": 0,
+    "duplicate_hashes_count": 0,
+    "cross_partition_speaker_overlap": false,
+    "passed_integrity_checks": false
+}

@@ -1,0 +1,35 @@
+{
+    "passed_all_checks": true,
+    "feature_type": "Log-Mel Spectrogram (dB scale)",
+    "mel_bands": 128,
+    "time_frames": 126,
+    "final_tensor_shape": [
+        128,
+        126,
+        1
+    ],
+    "data_type": "float32",
+    "counts": {
+        "train": 1307,
+        "validation": 276,
+        "test": 283,
+        "total": 1866
+    },
+    "integrity": {
+        "missing_features": 0,
+        "corrupted_features": 0,
+        "shape_mismatches": 0,
+        "nan_values": 0,
+        "infinite_values": 0,
+        "valid_labels": true,
+        "train_ids_preserved": true,
+        "val_ids_preserved": true,
+        "test_ids_preserved": true,
+        "duplicate_groups_crossing": 0
+    },
+    "storage": {
+        "total_files": 1866,
+        "total_bytes": 120618240,
+        "total_mb": 115.03
+    }
+}

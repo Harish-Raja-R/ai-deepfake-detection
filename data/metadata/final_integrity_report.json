@@ -1,0 +1,39 @@
+{
+    "dataset_name": "garystafford/deepfake-audio-detection",
+    "download_successful": true,
+    "dataset_root": "C:\\Users\\Harish\\Downloads\\AI deepfake detection\\AI_VOICE_DEEPFAKE_DETECTION\\data\\raw",
+    "total_samples": 1866,
+    "real_count": 933,
+    "fake_count": 933,
+    "class_ratio": "933:933",
+    "sampling_rates": [
+        16000,
+        44100
+    ],
+    "duration_statistics": {
+        "min_seconds": 2.5,
+        "max_seconds": 12.526,
+        "mean_seconds": 4.195,
+        "std_seconds": 1.589,
+        "total_audio_hours": 2.17
+    },
+    "disk_space_bytes": 590074814,
+    "disk_space_mb": 562.74,
+    "unique_speaker_sessions": 110,
+    "generators": {
+        "YouTube Human Speech": 933,
+        "Speechify": 211,
+        "Amazon Polly": 209,
+        "ElevenLabs": 173,
+        "Luvvoice": 156,
+        "Hume AI": 116,
+        "Hexgrad Kokoro": 68
+    },
+    "duplicate_samples_count": 216,
+    "corrupted_samples_count": 0,
+    "missing_samples_count": 0,
+    "label_validity_check": true,
+    "class_balance_check": true,
+    "sampling_rate_consistency_check": false,
+    "passed_verification": false
+}

@@ -1,0 +1,113 @@
+{
+    "check_1_duplicate_groups_crossing": 0,
+    "check_2_file_path_overlaps": 0,
+    "check_3_class_balance": {
+        "train": {
+            "real": 653,
+            "fake": 654,
+            "real_pct": 49.96
+        },
+        "validation": {
+            "real": 139,
+            "fake": 137,
+            "real_pct": 50.36
+        },
+        "test": {
+            "real": 141,
+            "fake": 142,
+            "real_pct": 49.82
+        }
+    },
+    "check_4_bilateral_class_presence": {
+        "train_has_both": true,
+        "validation_has_both": true,
+        "test_has_both": true
+    },
+    "check_5_missing_paths": 0,
+    "check_6_corrupted_audio": 0,
+    "check_7_speaker_representation_and_overlap": {
+        "train_unique_speakers": 14,
+        "val_unique_speakers": 14,
+        "test_unique_speakers": 14,
+        "overlap_train_val": 14,
+        "overlap_train_test": 14,
+        "overlap_val_test": 14,
+        "speaker_counts_by_split": {
+            "train": {
+                "yt_0009": 125,
+                "yt_0008": 110,
+                "yt_0011": 73,
+                "yt_0012": 73,
+                "yt_0000": 73,
+                "yt_0006": 47,
+                "yt_0013": 44,
+                "yt_0010": 28,
+                "yt_0004": 19,
+                "yt_0007": 14,
+                "yt_0005": 13,
+                "yt_0001": 13,
+                "yt_0003": 11,
+                "yt_0002": 10
+            },
+            "validation": {
+                "yt_0009": 26,
+                "yt_0008": 23,
+                "yt_0011": 16,
+                "yt_0012": 15,
+                "yt_0000": 15,
+                "yt_0013": 10,
+                "yt_0006": 10,
+                "yt_0010": 6,
+                "yt_0004": 4,
+                "yt_0001": 3,
+                "yt_0002": 3,
+                "yt_0005": 3,
+                "yt_0007": 3,
+                "yt_0003": 2
+            },
+            "test": {
+                "yt_0009": 27,
+                "yt_0008": 24,
+                "yt_0011": 16,
+                "yt_0012": 16,
+                "yt_0000": 16,
+                "yt_0006": 11,
+                "yt_0013": 9,
+                "yt_0010": 6,
+                "yt_0004": 4,
+                "yt_0005": 3,
+                "yt_0007": 3,
+                "yt_0002": 2,
+                "yt_0001": 2,
+                "yt_0003": 2
+            }
+        }
+    },
+    "check_8_fake_generators_by_split": {
+        "train": {
+            "Speechify": 150,
+            "Amazon Polly": 146,
+            "ElevenLabs": 120,
+            "Luvvoice": 109,
+            "Hume AI": 81,
+            "Hexgrad Kokoro": 48
+        },
+        "validation": {
+            "Amazon Polly": 32,
+            "Speechify": 28,
+            "ElevenLabs": 27,
+            "Luvvoice": 23,
+            "Hume AI": 17,
+            "Hexgrad Kokoro": 10
+        },
+        "test": {
+            "Speechify": 33,
+            "Amazon Polly": 31,
+            "ElevenLabs": 26,
+            "Luvvoice": 24,
+            "Hume AI": 18,
+            "Hexgrad Kokoro": 10
+        }
+    },
+    "passed_all_checks": true
+}
