@@ -3,7 +3,7 @@
 **Phase:** Phase 3 — Leakage-Safe Dataset Splitting & Audio Preprocessing  
 **Standard Target:** 16,000 Hz, Single-Channel Mono, Peak Normalized, Fixed 4.0 Seconds (64,000 Samples)  
 **Processed Storage:** `data/processed/audio/` (NumPy `.npy` format)  
-**Verification Date:** 2026-09-14 19:04:40  
+**Verification Date:** 2026-10-03 19:30:47  
 
 ---
 

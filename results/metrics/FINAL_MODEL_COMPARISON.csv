@@ -1,0 +1,17 @@
+Metric,CNN,CRNN,Better Model
+Parameters,110209,913665,CNN
+Accuracy (tau=0.50),63.25%,49.82%,CNN
+Precision (tau=0.50),100.00%,0.00%,CNN
+Recall (tau=0.50),26.76%,0.00%,CNN
+F1-Score (tau=0.50),42.22%,0.00%,CNN
+Specificity (tau=0.50),100.00%,100.00%,Tie (100.0%)
+False Positive Rate (tau=0.50),0.00%,0.00%,Tie (0.0%)
+False Negative Rate (tau=0.50),73.24%,100.00%,CNN
+ROC-AUC,0.9187,0.8303,CNN
+EER,17.32%,28.62%,CNN
+EER Threshold,0.2879,0.0749,-
+Accuracy (EER Operating Point),82.69%,71.38%,CNN
+Precision (EER Operating Point),82.52%,71.63%,CNN
+Recall (EER Operating Point),83.10%,71.13%,CNN
+F1-Score (EER Operating Point),82.81%,71.38%,CNN
+Training Time,261.96 sec,404.88 sec,CNN

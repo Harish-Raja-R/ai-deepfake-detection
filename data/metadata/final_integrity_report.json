@@ -1,7 +1,7 @@
 {
     "dataset_name": "garystafford/deepfake-audio-detection",
     "download_successful": true,
-    "dataset_root": "C:\\Users\\Harish\\Downloads\\AI deepfake detection\\AI_VOICE_DEEPFAKE_DETECTION\\data\\raw",
+    "dataset_root": "C:\\Users\\Harish\\Downloads\\ai-deepfake-detection\\data\\raw",
     "total_samples": 1866,
     "real_count": 933,
     "fake_count": 933,

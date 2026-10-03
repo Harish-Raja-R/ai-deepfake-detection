@@ -1,9 +1,10 @@
-# Python byte-code / caches
+﻿# Python byte-code / caches
 __pycache__/
 *.py[cod]
-*$py.class
+*.class
 *.so
 .Python
+.pytest_cache/
 
 # Environments
 .venv/
@@ -15,28 +16,11 @@ env/
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
-# Model weights and artifacts (keep directory, ignore large binaries)
-models/*
-!models/.gitkeep
-*.h5
-*.keras
-*.joblib
-*.pkl
-*.onnx
-
-# Data (keep directory structure, ignore local audio files)
+# Large raw & processed audio data
 data/raw/*
 !data/raw/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
-
-# Results cache / outputs
-results/figures/*
-!results/figures/.gitkeep
-results/metrics/*
-!results/metrics/.gitkeep
-results/predictions/*
-!results/predictions/.gitkeep
 
 # OS / IDE
 .DS_Store
